@@ -4595,6 +4595,7 @@ GameObject:
   - component: {fileID: 5132946436808698048}
   - component: {fileID: 8916061987225815093}
   - component: {fileID: 3991859153668524400}
+  - component: {fileID: 7679142812530655162}
   m_Layer: 0
   m_Name: Dog_GermanShepherd_01
   m_TagString: Untagged
@@ -4701,6 +4702,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8df04251025bc45a7b3297aef422e5af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
+--- !u!65 &7679142812530655162
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6348068236525885537}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.1287146, y: 0.23235849, z: 0.29447895}
+  m_Center: {x: -0.0036630393, y: 0.10105776, z: 0.030430127}
 --- !u!1 &6605732275802138313
 GameObject:
   m_ObjectHideFlags: 0
