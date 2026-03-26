@@ -12,10 +12,9 @@ GameObject:
   - component: {fileID: 7720541650188115540}
   - component: {fileID: 3579875600207874119}
   - component: {fileID: 9218376569693344177}
-  - component: {fileID: 1442333533776948879}
   - component: {fileID: 5976899704645045831}
   - component: {fileID: 3661816041406901464}
-  - component: {fileID: 7100436540183085088}
+  - component: {fileID: 1932675021030846614}
   m_Layer: 0
   m_Name: Food_Steak_01
   m_TagString: Untagged
@@ -108,18 +107,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveForward
   speed: 40
---- !u!114 &1442333533776948879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3238024155781577949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8df04251025bc45a7b3297aef422e5af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
 --- !u!65 &5976899704645045831
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -168,7 +155,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7100436540183085088
+--- !u!114 &1932675021030846614
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -177,6 +164,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 3238024155781577949}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 406ddad5b7f254323bdca04ee933527f, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
+  m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds

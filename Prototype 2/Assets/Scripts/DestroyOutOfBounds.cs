@@ -1,27 +1,35 @@
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class DestroyOutOfBounds : MonoBehaviour
 {
-    private float topBounds = 30.0f;
-    private float lowerBounds = -10.0f;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private float topBound = 30;
+    private float lowerBound = -10;
+
+    // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        // If an object goes out of bounds out of the top of the screen, destroy it
-        if (transform.position.z > topBounds)
+        if (transform.position.z > topBound)
         {
-            Destroy(gameObject);
-        } else if (transform.position.z < lowerBounds)
-        // Other wise if an object goes out of bounds in the lower part of the screen, destroy it too
+            // Instead of destroying the projectile when it leaves the screen
+            //Destroy(gameObject);
+
+            // Just deactivate it
+            gameObject.SetActive(false);
+
+        }
+        else if (transform.position.z < lowerBound)
         {
             Debug.Log("Game Over!");
             Destroy(gameObject);
         }
+
     }
 }
